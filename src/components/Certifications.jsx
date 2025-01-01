@@ -7,7 +7,7 @@ const Certifications = () => {
 
     return (
         <>
-            <div className="flex flex-row gap-40 w-[100%]">
+            <div className="flex flex-row justify-between gap-14 w-[100%]">
                 {
                     certGroups.map((certGroup, i) => (
                         <div key={i}>
